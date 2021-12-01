@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 10vw;
+    position: relative;
+    top: -13vh;
+    left: 0;
+}
+
+body{
+    background: rgb(114,9,121);
+    background: linear-gradient(230deg, rgba(114,9,121,1) 5%, rgba(255,115,245,1) 47%, rgba(195,27,191,1) 87%);
+    margin: 0 4vw;
+}
+
+fieldset{
+    background-color: rgb(110, 107, 107);
+    height: 70vh;
+    margin: 0 30vw 10vh;
+    border-radius: 1em;
+}
+
+
+#title h2 {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 4em;
+    color: yellow;
+}
+
+.inputs{
+    position: relative;
+    text-align: center;
+    margin: 4vh 3%;
+    width: 94%;
+    box-shadow: inset 0px 0px 37px 29px rgba(229, 255, 0, 0.42);
+    padding: 1em;
+    border-radius: 1em;
+    border: 0;
+}
+
+#name{
+    margin-top: 6vh;
+}
+
+#button{
+    text-align: center;
+    margin: 2vh 3%;
+    width: 94%;
+    box-shadow: inset 0px 0px 37px 29px rgba(229, 255, 0, 0.42);
+    padding: 1em;
+    border-radius: 1em;
+    border: 0;
+}
+
+#tabela{
+    border-radius: 1em;
+}
+
+#redondo1{
+    border-radius: 1em 0 0 0;
+}
+
+#redondo2{
+    border-radius: 0 1em 0 0;
+}
+
+#tabela th{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#limpar{
+    text-align: center;
+    margin: 2vh 3%;
+    width: 94%;
+    box-shadow: inset 0px 0px 37px 29px rgba(229, 255, 0, 0.42);
+    padding: 1em;
+    border-radius: 1em;
+    border: 0;
+}
+
+table{
+    border: 4px solid #792396;
+    background-color: #555555;
+    width: 350px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  table tr, table th {
+  border: 1px solid #555555;
+  padding: 5px 2px;
+}
+
+th {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+th{
+    background-color: #CC3BFC;
+  }
+
+th {
+    background: #792396;
+    border-bottom: 4px solid #792396;
+  }
+
+th{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    border-left: 2px solid #792396;
+  }
+
+th:first-child {
+    border-left: none;
+  }
